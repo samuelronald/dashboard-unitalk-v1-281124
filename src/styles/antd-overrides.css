@@ -1,0 +1,25 @@
+/* Custom styles to override Ant Design defaults */
+.ant-btn-primary {
+  @apply shadow-sm;
+}
+
+.ant-card {
+  @apply shadow-sm;
+}
+
+.ant-table {
+  @apply shadow-sm rounded-lg;
+}
+
+.ant-input, .ant-select {
+  @apply shadow-sm;
+}
+
+/* Dark mode overrides */
+.dark {
+  --ant-primary-color: #1668dc;
+  --ant-primary-color-hover: #4096ff;
+  --ant-background-color: #141414;
+  --ant-component-background: #1f1f1f;
+  --ant-text-color: rgba(255, 255, 255, 0.85);
+}
